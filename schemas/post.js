@@ -12,7 +12,7 @@ export default {
     {
       name: 'lead',
       title: 'Lead',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'slug',

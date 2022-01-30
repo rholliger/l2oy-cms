@@ -66,8 +66,8 @@ export default {
           type: 'string',
           options: {
             list: [
-              { title: 'Center', value: 'center' },
               { title: 'Left', value: 'left' },
+              { title: 'Center', value: 'center' },
               { title: 'Right', value: 'right' },
             ],
             layout: 'radio',
@@ -76,8 +76,16 @@ export default {
         },
         {
           type: 'text',
+          name: 'caption',
+          title: 'Caption',
+          options: {
+            isHighlighted: true,
+          },
+        },
+        {
+          type: 'string',
           name: 'alt',
-          title: 'Description',
+          title: 'Alt-Text',
           options: {
             isHighlighted: true,
           },
@@ -87,9 +95,6 @@ export default {
     },
     {
       type: 'code',
-      options: {
-        withFilename: true,
-      },
     },
   ],
 }

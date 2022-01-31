@@ -35,7 +35,11 @@ export default {
         {
           title: 'Block',
           type: 'block',
-          styles: [{ title: 'Normal', value: 'normal' }],
+          styles: [
+            { title: 'Normal', value: 'normal' },
+            { title: 'Title', value: 'h2' },
+            { title: 'Subtitle', value: 'h3' },
+          ],
           lists: [],
         },
       ],

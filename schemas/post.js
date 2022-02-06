@@ -13,6 +13,7 @@ export default {
       name: 'lead',
       title: 'Lead',
       type: 'text',
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'slug',

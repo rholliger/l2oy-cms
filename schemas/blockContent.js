@@ -48,6 +48,22 @@ export default {
                 title: 'URL',
                 name: 'href',
                 type: 'url',
+                validation: false,
+              },
+            ],
+          },
+          {
+            name: 'internalLink',
+            type: 'object',
+            title: 'Internal link',
+            fields: [
+              {
+                name: 'reference',
+                type: 'reference',
+                to: [
+                  { type: 'post' },
+                  // other types you may want to link to
+                ],
               },
             ],
           },

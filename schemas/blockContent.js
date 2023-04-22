@@ -87,24 +87,17 @@ export default {
               { title: 'Right', value: 'right' },
             ],
             layout: 'radio',
-            isHighlighted: true,
           },
         },
         {
           type: 'text',
           name: 'caption',
           title: 'Caption',
-          options: {
-            isHighlighted: true,
-          },
         },
         {
           type: 'string',
           name: 'alt',
           title: 'Alt-Text',
-          options: {
-            isHighlighted: true,
-          },
         },
       ],
       options: { hotspot: true },

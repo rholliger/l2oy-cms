@@ -59,6 +59,12 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      title: 'Only accessible through link',
+      name: 'onlyAccessibleThroughLink',
+      type: 'boolean',
+      initialValue: false,
+    },
   ],
 
   preview: {

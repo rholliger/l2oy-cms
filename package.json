@@ -16,14 +16,14 @@
   ],
   "dependencies": {
     "@sanity/code-input": "^4.1.0",
-    "@sanity/vision": "^3.9.0",
+    "@sanity/vision": "^3.21.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sanity": "^3.9.0",
-    "styled-components": "^5.2.0"
+    "sanity": "^3.21.1",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "prettier": "3.1.0"
   }
 }

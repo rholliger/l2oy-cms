@@ -36,6 +36,13 @@ export default {
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
+      fields: [
+        {
+          type: 'string',
+          name: 'alt',
+          title: 'Alt-Text',
+        },
+      ],
       options: {
         hotspot: true,
       },

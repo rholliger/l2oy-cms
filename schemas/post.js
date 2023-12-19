@@ -33,6 +33,21 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'teaserImage',
+      title: 'Teaser image',
+      type: 'image',
+      fields: [
+        {
+          type: 'string',
+          name: 'alt',
+          title: 'Alt-Text',
+        },
+      ],
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
